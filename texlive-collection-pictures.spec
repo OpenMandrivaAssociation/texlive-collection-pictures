@@ -1,4 +1,4 @@
-# revision 25031
+# revision 25777
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-pictures
 Epoch:		1
-Version:	20120224
+Version:	20120413
 Release:	1
 Summary:	Graphics packages and programs
 Group:		Publishing
@@ -91,6 +91,7 @@ Requires:	texlive-tikz-inet
 Requires:	texlive-tikz-qtree
 Requires:	texlive-tikz-timing
 Requires:	texlive-tikzpagenodes
+Requires:	texlive-tikzpfeile
 Requires:	texlive-tqft
 Requires:	texlive-tkz-base
 Requires:	texlive-tkz-berge

@@ -1,4 +1,4 @@
-# revision 25777
+# revision 27346
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-pictures
 Epoch:		1
-Version:	20120413
+Version:	20120810
 Release:	1
 Summary:	Graphics packages and programs
 Group:		Publishing
@@ -16,7 +16,6 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-pictur
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Requires:	texlive-adjustbox
 Requires:	texlive-asyfig
 Requires:	texlive-autoarea
 Requires:	texlive-bardiag
@@ -61,9 +60,11 @@ Requires:	texlive-numericplots
 Requires:	texlive-pb-diagram
 Requires:	texlive-petri-nets
 Requires:	texlive-pgf
+Requires:	texlive-pgf-blur
 Requires:	texlive-pgf-soroban
 Requires:	texlive-pgf-umlsd
 Requires:	texlive-pgfgantt
+Requires:	texlive-pgfkeyx
 Requires:	texlive-pgfmolbio
 Requires:	texlive-pgfopts
 Requires:	texlive-pgfplots

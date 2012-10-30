@@ -1,4 +1,4 @@
-# revision 27346
+# revision 28073
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-pictures
 Epoch:		1
-Version:	20120810
+Version:	20121030
 Release:	1
 Summary:	Graphics packages and programs
 Group:		Publishing
@@ -48,6 +48,8 @@ Requires:	texlive-gnuplottex
 Requires:	texlive-gradientframe
 Requires:	texlive-grafcet
 Requires:	texlive-here
+Requires:	texlive-hf-tikz
+Requires:	texlive-hobby
 Requires:	texlive-hvfloat
 Requires:	texlive-knitting
 Requires:	texlive-knittingpattern
@@ -83,6 +85,7 @@ Requires:	texlive-reotex
 Requires:	texlive-roundbox
 Requires:	texlive-rviewport
 Requires:	texlive-schemabloc
+Requires:	texlive-setdeck
 Requires:	texlive-swimgraf
 Requires:	texlive-texdraw
 Requires:	texlive-tikz-cd
@@ -93,6 +96,7 @@ Requires:	texlive-tikz-qtree
 Requires:	texlive-tikz-timing
 Requires:	texlive-tikzpagenodes
 Requires:	texlive-tikzpfeile
+Requires:	texlive-tikzposter
 Requires:	texlive-tqft
 Requires:	texlive-tkz-base
 Requires:	texlive-tkz-berge
@@ -106,6 +110,7 @@ Requires:	texlive-tkz-orm
 Requires:	texlive-tkz-tab
 Requires:	texlive-tsemlines
 Requires:	texlive-tufte-latex
+Requires:	texlive-venndiagram
 Requires:	texlive-xypic
 Requires:	texlive-collection-basic
 

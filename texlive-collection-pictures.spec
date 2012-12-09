@@ -1,4 +1,4 @@
-# revision 28073
+# revision 25777
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-pictures
 Epoch:		1
-Version:	20121030
+Version:	20120413
 Release:	1
 Summary:	Graphics packages and programs
 Group:		Publishing
@@ -16,6 +16,7 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-pictur
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-adjustbox
 Requires:	texlive-asyfig
 Requires:	texlive-autoarea
 Requires:	texlive-bardiag
@@ -48,8 +49,6 @@ Requires:	texlive-gnuplottex
 Requires:	texlive-gradientframe
 Requires:	texlive-grafcet
 Requires:	texlive-here
-Requires:	texlive-hf-tikz
-Requires:	texlive-hobby
 Requires:	texlive-hvfloat
 Requires:	texlive-knitting
 Requires:	texlive-knittingpattern
@@ -62,11 +61,9 @@ Requires:	texlive-numericplots
 Requires:	texlive-pb-diagram
 Requires:	texlive-petri-nets
 Requires:	texlive-pgf
-Requires:	texlive-pgf-blur
 Requires:	texlive-pgf-soroban
 Requires:	texlive-pgf-umlsd
 Requires:	texlive-pgfgantt
-Requires:	texlive-pgfkeyx
 Requires:	texlive-pgfmolbio
 Requires:	texlive-pgfopts
 Requires:	texlive-pgfplots
@@ -85,7 +82,6 @@ Requires:	texlive-reotex
 Requires:	texlive-roundbox
 Requires:	texlive-rviewport
 Requires:	texlive-schemabloc
-Requires:	texlive-setdeck
 Requires:	texlive-swimgraf
 Requires:	texlive-texdraw
 Requires:	texlive-tikz-cd
@@ -96,7 +92,6 @@ Requires:	texlive-tikz-qtree
 Requires:	texlive-tikz-timing
 Requires:	texlive-tikzpagenodes
 Requires:	texlive-tikzpfeile
-Requires:	texlive-tikzposter
 Requires:	texlive-tqft
 Requires:	texlive-tkz-base
 Requires:	texlive-tkz-berge
@@ -110,7 +105,6 @@ Requires:	texlive-tkz-orm
 Requires:	texlive-tkz-tab
 Requires:	texlive-tsemlines
 Requires:	texlive-tufte-latex
-Requires:	texlive-venndiagram
 Requires:	texlive-xypic
 Requires:	texlive-collection-basic
 
@@ -127,3 +121,16 @@ TeXLive collection-pictures package.
 %build
 
 %install
+
+
+%changelog
+* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120413-1
++ Revision: 790885
+- Update to latest release.
+
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
++ Revision: 780506
+- Update to latest release.
+- Import texlive-collection-pictures
+- Import texlive-collection-pictures
+

@@ -1,4 +1,4 @@
-# revision 28073
+# revision 31517
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,9 +6,9 @@
 # catalog-version undef
 Name:		texlive-collection-pictures
 Epoch:		1
-Version:	20121030
+Version:	20131013
 Release:	1
-Summary:	Graphics packages and programs
+Summary:	Graphics, pictures, diagrams
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
@@ -16,6 +16,7 @@ Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-pictur
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
+Requires:	texlive-collection-basic
 Requires:	texlive-asyfig
 Requires:	texlive-autoarea
 Requires:	texlive-bardiag
@@ -23,6 +24,7 @@ Requires:	texlive-bloques
 Requires:	texlive-bodegraph
 Requires:	texlive-bondgraph
 Requires:	texlive-braids
+Requires:	texlive-bxeepic
 Requires:	texlive-cachepic
 Requires:	texlive-chemfig
 Requires:	texlive-combinedgraphics
@@ -42,11 +44,15 @@ Requires:	texlive-eepic
 Requires:	texlive-epspdf
 Requires:	texlive-epspdfconversion
 Requires:	texlive-esk
+Requires:	texlive-fast-diagram
 Requires:	texlive-fig4latex
+Requires:	texlive-flowchart
+Requires:	texlive-forest
 Requires:	texlive-gincltex
 Requires:	texlive-gnuplottex
 Requires:	texlive-gradientframe
 Requires:	texlive-grafcet
+Requires:	texlive-graphviz
 Requires:	texlive-here
 Requires:	texlive-hf-tikz
 Requires:	texlive-hobby
@@ -55,9 +61,11 @@ Requires:	texlive-knitting
 Requires:	texlive-knittingpattern
 Requires:	texlive-lapdf
 Requires:	texlive-lpic
+Requires:	texlive-makeshape
 Requires:	texlive-mathspic
 Requires:	texlive-miniplot
 Requires:	texlive-modiagram
+Requires:	texlive-neuralnetwork
 Requires:	texlive-numericplots
 Requires:	texlive-pb-diagram
 Requires:	texlive-petri-nets
@@ -79,24 +87,34 @@ Requires:	texlive-pinlabel
 Requires:	texlive-pmgraph
 Requires:	texlive-prerex
 Requires:	texlive-productbox
+Requires:	texlive-pxpgfmark
 Requires:	texlive-randbild
 Requires:	texlive-randomwalk
 Requires:	texlive-reotex
-Requires:	texlive-roundbox
 Requires:	texlive-rviewport
+Requires:	texlive-sa-tikz
 Requires:	texlive-schemabloc
 Requires:	texlive-setdeck
+Requires:	texlive-smartdiagram
+Requires:	texlive-spath3
 Requires:	texlive-swimgraf
 Requires:	texlive-texdraw
-Requires:	texlive-tikz-cd
 Requires:	texlive-tikz-3dplot
+Requires:	texlive-tikz-bayesnet
+Requires:	texlive-tikz-cd
 Requires:	texlive-tikz-dependency
 Requires:	texlive-tikz-inet
 Requires:	texlive-tikz-qtree
 Requires:	texlive-tikz-timing
+Requires:	texlive-tikzinclude
+Requires:	texlive-tikzmark
+Requires:	texlive-tikzorbital
 Requires:	texlive-tikzpagenodes
 Requires:	texlive-tikzpfeile
 Requires:	texlive-tikzposter
+Requires:	texlive-tikzscale
+Requires:	texlive-tikzsymbols
+Requires:	texlive-timing-diagrams
 Requires:	texlive-tqft
 Requires:	texlive-tkz-base
 Requires:	texlive-tkz-berge
@@ -111,11 +129,11 @@ Requires:	texlive-tkz-tab
 Requires:	texlive-tsemlines
 Requires:	texlive-tufte-latex
 Requires:	texlive-venndiagram
+Requires:	texlive-xpicture
 Requires:	texlive-xypic
-Requires:	texlive-collection-basic
 
 %description
-TeXLive collection-pictures package.
+Including TikZ, pict, etc.; MetaPost and PStricks are separate.
 
 #-----------------------------------------------------------------------
 %files
@@ -127,21 +145,3 @@ TeXLive collection-pictures package.
 %build
 
 %install
-
-
-%changelog
-* Tue Oct 30 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20121030-1
-+ Revision: 821217
-- Update to latest release.
-- Update to latest release.
-
-* Sat Apr 14 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120413-1
-+ Revision: 790885
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:20120224-1
-+ Revision: 780506
-- Update to latest release.
-- Import texlive-collection-pictures
-- Import texlive-collection-pictures
-

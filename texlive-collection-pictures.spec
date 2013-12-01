@@ -1,4 +1,4 @@
-# revision 31517
+# revision 31980
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-pictures
 Epoch:		1
-Version:	20131013
+Version:	20131201
 Release:	1
 Summary:	Graphics, pictures, diagrams
 Group:		Publishing
@@ -53,6 +53,7 @@ Requires:	texlive-gnuplottex
 Requires:	texlive-gradientframe
 Requires:	texlive-grafcet
 Requires:	texlive-graphviz
+Requires:	texlive-harveyballs
 Requires:	texlive-here
 Requires:	texlive-hf-tikz
 Requires:	texlive-hobby

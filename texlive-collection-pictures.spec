@@ -7,7 +7,7 @@
 Name:		texlive-collection-pictures
 Epoch:		1
 Version:	20131201
-Release:	1
+Release:	2
 Summary:	Graphics, pictures, diagrams
 Group:		Publishing
 URL:		http://tug.org/texlive

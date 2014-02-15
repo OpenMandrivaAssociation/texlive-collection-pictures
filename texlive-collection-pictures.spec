@@ -1,4 +1,4 @@
-# revision 31980
+# revision 32769
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-pictures
 Epoch:		1
-Version:	20131201
-Release:	5
+Version:	20140215
+Release:	1
 Summary:	Graphics, pictures, diagrams
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -17,6 +17,8 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires:	texlive-collection-basic
+Requires:	texlive-aobs-tikz
+Requires:	texlive-askmaps
 Requires:	texlive-asyfig
 Requires:	texlive-autoarea
 Requires:	texlive-bardiag
@@ -105,6 +107,7 @@ Requires:	texlive-tikz-bayesnet
 Requires:	texlive-tikz-cd
 Requires:	texlive-tikz-dependency
 Requires:	texlive-tikz-inet
+Requires:	texlive-tikz-opm
 Requires:	texlive-tikz-qtree
 Requires:	texlive-tikz-timing
 Requires:	texlive-tikzinclude
@@ -134,7 +137,8 @@ Requires:	texlive-xpicture
 Requires:	texlive-xypic
 
 %description
-Including TikZ, pict, etc.; MetaPost and PStricks are separate.
+Including TikZ, pict, etc., but MetaPost and PStricks are
+separate.
 
 #-----------------------------------------------------------------------
 %files

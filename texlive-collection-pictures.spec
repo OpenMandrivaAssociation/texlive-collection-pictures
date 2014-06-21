@@ -1,4 +1,4 @@
-# revision 32769
+# revision 33688
 # category Collection
 # catalog-ctan undef
 # catalog-date undef
@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-pictures
 Epoch:		1
-Version:	20140215
-Release:	2
+Version:	20140621
+Release:	1
 Summary:	Graphics, pictures, diagrams
 Group:		Publishing
 URL:		http://tug.org/texlive
@@ -20,6 +20,7 @@ Requires:	texlive-collection-basic
 Requires:	texlive-aobs-tikz
 Requires:	texlive-askmaps
 Requires:	texlive-asyfig
+Requires:	texlive-asypictureb
 Requires:	texlive-autoarea
 Requires:	texlive-bardiag
 Requires:	texlive-bloques
@@ -67,6 +68,7 @@ Requires:	texlive-lpic
 Requires:	texlive-makeshape
 Requires:	texlive-mathspic
 Requires:	texlive-miniplot
+Requires:	texlive-mkpic
 Requires:	texlive-modiagram
 Requires:	texlive-neuralnetwork
 Requires:	texlive-numericplots
@@ -75,6 +77,7 @@ Requires:	texlive-petri-nets
 Requires:	texlive-pgf
 Requires:	texlive-pgf-blur
 Requires:	texlive-pgf-soroban
+Requires:	texlive-pgf-umlcd
 Requires:	texlive-pgf-umlsd
 Requires:	texlive-pgfgantt
 Requires:	texlive-pgfkeyx

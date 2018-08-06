@@ -6,8 +6,8 @@
 # catalog-version undef
 Name:		texlive-collection-pictures
 Epoch:		1
-Version:	20180601
-Release:	2
+Version:	20180731
+Release:	1
 Summary:	Graphics, pictures, diagrams
 Group:		Publishing
 URL:		http://tug.org/texlive

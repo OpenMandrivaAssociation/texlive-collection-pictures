@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-collection-pictures
 Epoch:		1
-Version:	20190226
+Version:	20190406
 Release:	1
 Summary:	Graphics, pictures, diagrams
 Group:		Publishing

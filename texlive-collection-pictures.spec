@@ -1,18 +1,12 @@
-# revision 33688
-# category Collection
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-collection-pictures
 Epoch:		1
-Version:	20190406
+Version:	64681
 Release:	1
 Summary:	Graphics, pictures, diagrams
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-pictures.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/collection-pictures.r64681.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -148,7 +142,7 @@ separate.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0
+%autosetup -p1 -c
 
 %build
 

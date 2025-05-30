@@ -1,6 +1,6 @@
 Name:		texlive-collection-pictures
 Epoch:		1
-Version:	72555
+Version:	75341
 Release:	1
 Summary:	Graphics, pictures, diagrams
 Group:		Publishing

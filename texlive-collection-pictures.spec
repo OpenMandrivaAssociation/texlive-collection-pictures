@@ -1,5 +1,5 @@
 %global tl_name collection-pictures
-%global tl_revision 79833
+%global tl_revision 79849
 
 Name:		texlive-%{tl_name}
 Version:	%{tl_revision}
@@ -211,7 +211,6 @@ Requires:	texlive(tikz-bagua)
 Requires:	texlive(tikz-bayesnet)
 Requires:	texlive(tikz-bbox)
 Requires:	texlive(tikz-bpmn)
-Requires:	texlive(tikz-catan)
 Requires:	texlive(tikz-cd)
 Requires:	texlive(tikz-cookingsymbols)
 Requires:	texlive(tikz-decofonts)
